@@ -26,3 +26,56 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  font-size: 32px;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+}
+
+.mid {
+  display: flex;
+  flex: 1;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+}
+
+.sidebar {
+  flex: 1 0 auto;
+  padding: 16px;
+}
+
+.text {
+  display: flex;
+  padding: 32px;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.text>div {
+  padding: 16px;
+  width: 300px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
